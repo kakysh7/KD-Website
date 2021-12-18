@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+   position: fixed;
+  margin: 0;
+  min-height: 100vh;
+  background-color: #000000;
+  background: linear-gradient(135deg, #2c292955 25%, transparent 25%) -9px 0/ 18px 18px, linear-gradient(225deg, #2c2929 25%, transparent 25%) -9px 0/ 18px 18px, linear-gradient(315deg, #2c292955 25%, transparent 25%) 0px 0/ 18px 18px, linear-gradient(45deg, #2c2929 25%, #000000 25%) 0px 0/ 18px 18px;
+  position: fixed;
+}
+
+/* -------------Navbar styling-------------- */
+#navbar {
+  top : 0;
+  left: 0;
+  position: fixed;
+  height: 100vh;
+  width: 50px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 5px 5px rgb(17, 17, 17);
+  z-index: 1;
+}
+
+#KD {
+  padding-bottom: 300px;
+  width: 40px;
+  height: 40px;
+  user-select: none;
+}
+
+.fas {
+  font-size: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+  color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.fa-user {
+  margin-left: 3px;
+}
+
+.fa-eye {
+  margin-right: 2px;
+}
+
+.fa-cog {
+  margin-left: 2px;
+}
+
+.fa-envelope {
+  margin-left: 2px;
+  margin-bottom: 300px;
+}
+
+/*--------------------- Loader----------------- */
+.loader {
+  background: rgba(0, 0, 0, 0.9);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loader {
+  height: 75px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ------------ Home Page -------------- */
+
+.home-container {
+  z-index: -1;
+  position: fixed;
+  background: rgba(24, 23, 23, 0.8);
+  width: 70%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Yazgy styling */
+.yazgy {
+  margin-top: 300px;
+  margin-left:250px;
+  margin-bottom: 0;
+  font-size:26px;
+  font-family: Readex Pro, sans-serif;
+  color: white;
+}
+
+h6 {
+  color: gray;
+}
+
+
+button {
+  cursor: pointer;
+  background: rgb(31, 30, 30) ;
+  color: rgb(127, 255, 212);
+  border-color: aquamarine;
+  border-radius: 5px;
+  height: 60px;
+  width: 200px;
+  margin-top: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: Nunito Sans, sans-serif;
+  letter-spacing: 5px;
+}
+
+h1 {
+  margin-bottom: -30px;
+}
+
+
+/* ------------ About Page --------------- */
+
+.about-container {
+  z-index: -1;
+  position: fixed;
+  background: rgba(24, 23, 23, 0.8);
+  width: 70%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.about-h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: Readex Pro, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25vh;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+}
+
+.about-p{
+  color: white;
+  font-size: 2rem;
+  padding-left: 100px;
+  padding-right: 75px;
+  font-family: Readex Pro, sans-serif;
+} 
+
+
+/*------------- Skills Page --------------*/
+.skills-container {
+  z-index: -1;
+  position: fixed;
+  background: rgba(24, 23, 23, 0.8);
+  width: 70%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.skills-h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: Readex Pro, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25vh;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+}
+
+.skill-icons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#skill-icons {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 150px;
+  letter-spacing: 50px;
+}
+
+.fa-js-square {
+ color: #f7df1e;
+}
+
+.fa-html5 {
+
+  color: #e34f26;
+}
+
+.fa-css3-alt {
+  color:  #264de4;
+}
+
+.fa-react {
+  color:  #00d8ff;
+}
+
+.fa-node {
+  color:  #6cc24a;
+}
+
+.fa-bootstrap {
+  color:  #4f099e;
+}
+
+
+
+/*----------------- Projects --------------*/
+.projects-container {
+  z-index: -1;
+  position: fixed;
+  background: rgba(24, 23, 23, 0.8);
+  width: 70%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.projects-h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: Readex Pro, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25vh;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+  margin-left: 50px;
+}
+
+.project-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 100px;
+  border-color: aquamarine;
+  margin-top: 30px;
+  margin-left: 50px; 
+  margin-bottom: 50px; 
+}
+
+
+/*----------------- Contact ---------------*/
+.contact-container {
+  z-index: -1;
+  position: fixed;
+  background: rgba(24, 23, 23, 0.8);
+  width: 70%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.contact-h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: Readex Pro, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25vh;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+}
+
+#social-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 100px;
+  letter-spacing: 50px;
+  cursor: pointer;
+}
+
+.fa-github {
+  color: #6e5494;
+}
+
+.fa-whatsapp {
+  color: #25d366;
+}
+
+.fa-instagram {
+  color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-telegram {
+  color: #0088cc;
+}
+
+.fab:hover {
+  color: white;
+}

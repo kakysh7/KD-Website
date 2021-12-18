@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakysh Durdyyev</title>
+    <link rel="icon" type="image/png" href="favicon.PNG">
+    
+    <!-- Old Favicon - Grab Icon From Google (Might be unsupported in the future) -->
+    <!-- <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=jacinto.design"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body>
+    <div class="loader hidden" id="loaderDiv">
+        <img src="CD-1.svg" id="loader" alt="loader animation">
+    </div>
+    <div class="all-body" id="all-body">
+      <!-- Gyraky Navigation -->
+      <div class="navbar" id="navbar">
+        <div class="icons">
+            <img src="KD_free-file.png" alt="logo" id="KD">
+            <div id="homeBtn">
+                <i class="fas fa-home"  title="Home"></i>
+            </div>
+            <div id="aboutBtn">
+                <i class="fas fa-user"  title="About"></i>
+            </div>
+            <div id="skillsBtn">
+                <i class="fas fa-cog"  title="Skills"></i>
+            </div>
+            <div id="projectsBtn">
+                <i class="fas fa-eye"  title="Projects"></i>
+            </div>
+            <div id="contactBtn">
+                <i class="fas fa-envelope"  title="Contact"></i>
+            </div>
+        </div> 
+    </div>
+      
+        <!---- Home Page ---->
+     <div class="home-page" hidden>
+        <div class="home-container" data-aos="">
+        <!-- Yazgy -->
+        <div class="yazgy" id="yazgy">
+            <h1 data-aos="fade-up" data-aos-delay="1000">Hi,</h1>
+            <h1 data-aos="fade-up" data-aos-delay="1000">I'm Kakysh,</h1>
+            <h1 data-aos="fade-up" data-aos-delay="1000">web developer.</h1>
+            <h6 data-aos="fade-right"
+            data-aos-delay="1500">Front-end developer / React.Js developer / Freelancer</h6>
+            <form method="get"  action="https://www.instagram.com/kakysh_durdyyev/" target="_blank">
+                <button type="submit">Contact Me</button>
+            </form>
+            </div>
+        </div>
+    </div>  
+
+
+        <!-- About Page -->
+        <div class="about-page"  hidden>
+            <div class="about-container">
+                <h1 class="about-h1" >About Me</h1>
+                <p class="about-p">lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quasi obcaecati accusamus, harum molestiae adipisci corrupti animi id rem soluta error perferendis et delectus reiciendis ipsa eveniet! Veritatis, dolorum velit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit blanditiis voluptas odio porro cum explicabo maiores ullam amet numquam? Cumque dolorem, maiores nobis aliquam iste tempora laboriosam id magnam fugiat.</p>
+            </div>   
+        </div>
+
+
+        <!-- Skills Page-->
+        <div class="skills-page"  hidden>
+            <div class="skills-container">
+                <h1 class="skills-h1" >Skills</h1>
+                <div class="skill-icons">
+                    <i class="fab fa-js-square" id="skill-icons"></i>
+                    <i class="fab fa-html5" id="skill-icons"></i>
+                    <i class="fab fa-css3-alt" id="skill-icons"></i>
+                    <i class="fab fa-react" id="skill-icons"></i>
+                    <i class="fab fa-node" id="skill-icons"></i>
+                    <i class="fab fa-bootstrap" id="skill-icons"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects Page-->
+        <div class="projects-page"  hidden>
+            <div class="projects-container">
+                <h1 class="projects-h1" >Projects</h1>
+                <!-- Projects -->
+                <div class="project-div">
+                <a href=""><div class="project"></div></a>
+                <a href=""><div class="project"></div></a>
+                <a href=""><div class="project"></div></a>
+                <a href=""><div class="project"></div></a>
+                <a href=""><div class="project"></div></a>
+            </div>
+            </div>
+        </div>
+
+        <!-- Contact Page-->
+        <div class="contact-page"  hidden>
+            <div class="contact-container">
+                <h1 class="contact-h1">Contacts</h1>
+                <div class="" id="social-icons">
+                    <a href="https://www.github.com/kakysh7" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://wa.me/99361788894?text=urlencodedtext" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/kakysh_durdyyev" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/k_durdyyev" target="_blank"><i class="fab fa-telegram"></i></a> 
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Script -->
+    <!-- AOS.js -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+  delay: 200, // values from 0 to 3000, with step 50ms
+  duration: 1500, // values from 0 to 3000, with step 50ms
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  });
+</script>
+    <script src="script.js"></script>
+</body>
+</html>
